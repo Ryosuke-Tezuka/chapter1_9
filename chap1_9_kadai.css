@@ -64,14 +64,21 @@ main{
 
 @media screen and (max-width:768px){
   main{
-    width: 50%;
+    width: 90%;
+    margin: 50px auto;
   }
   .step-box{
     float: none;
-    width: 90%;
+    width: 100%;
     margin-bottom: 20px;
+    margin-right: 0;
   }
   .step-box:last-child{
     margin-bottom: 0;
+  }
+  .step-img1, .step-img2, .step-img3{
+    width: 280px;
+    margin: 0 auto;
+    /* 768pxのレスポンシブ対応の際に、画像が崩れてしまうため、widthを設定 */
   }
 }
